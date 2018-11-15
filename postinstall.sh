@@ -12,5 +12,6 @@ pip3 install netifaces bottle rpi.gpio adafruit-charlcd
 sed -i -e "s:/boot/pinaomiforcewebtools-master/postinstall.sh::" /etc/rc.local
 echo "i2c-dev" >> /etc/modules
 cp -r /boot/pinaomiforcewebtools-master/naomiweb /home/pi/
+rm -rf /home/pi/tmp-dimm/
 
 reboot
