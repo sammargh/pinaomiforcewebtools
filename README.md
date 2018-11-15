@@ -41,7 +41,7 @@ In this sample configuration my Naomi DIMM is set to 192.168.0.2 so I am setting
 
 ## Troubleshooting
 
-After the software is installed you can use "iwconfig" from login to obtain the wireless ip for your Raspberry Pi. Once you have this you can use Filezilla or a similar client to load the games into the roms directory. Simply put the ip in your client with pi/raspberry as the login to copy roms over. Once roms are loaded reboot the Raspberry Pi and it should start functioning. You can navigate to the naomiweb interface by going to http://<wifiip> in your browser.
+After the software is installed you can use "ifconfig wlan0" from login to obtain the wireless ip for your Raspberry Pi. Once you have this you can use Filezilla or a similar client to load the games into the roms directory. Simply put the ip in your client with pi/raspberry as the login to copy roms over. Once roms are loaded reboot the Raspberry Pi and it should start functioning. You can navigate to the naomiweb interface by going to http://<wifiip> in your browser.
 
 ## Credit
 
