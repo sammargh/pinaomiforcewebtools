@@ -1,7 +1,7 @@
 #!/bin/bash
 
 ETH0="192.168.0.1/24" # ETH0 ip on rpi to communicate with DIMM
-WIFI_AP="accesspoint"      # WIFI AP name
+WIFI_AP="accesspoint" # WIFI AP name
 WIFI_PASS="password"  # WIFI AP password
 WIFI_COUNTRY="US"     # Country for WIFI see https://en.wikipedia.org/wiki/ISO_3166-1 for Alpha 2 code
 LCD_BOARD=1           # 1 for yes 0 for no
