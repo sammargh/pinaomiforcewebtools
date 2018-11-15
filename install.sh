@@ -1,5 +1,6 @@
 #!/bin/bash
 
+# CONFIGURATION SECTION
 ETH0="192.168.0.1/24" # ETH0 ip on rpi to communicate with DIMM
 WIFI_AP="accesspoint" # WIFI AP name
 WIFI_PASS="password"  # WIFI AP password
@@ -9,6 +10,7 @@ NEW_LCD_BOARD=0       # Is this a newer or older with LCD board? 1 for
                       # newer-style, 0 for older-style that cannot change 
                       # background color
 NEW_LCD_COLOR=(0,0,1) # (Red, Green, Blue) set to BLUE, can only use 1 or 0
+# END CONFIGURATION SECTION
 
 echo "Setting up raspbian environment for static ethernet and wifi"
 
