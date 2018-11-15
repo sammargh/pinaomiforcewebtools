@@ -1,0 +1,113 @@
+html {
+	position: relative;
+	min-height: 100%;
+}
+
+body {
+	/*background: black;
+	color: white;*/
+	font-family: sans-serif;
+	/* Margin bottom by footer height */
+	margin-bottom: 60px;
+}
+
+.rm-filter {
+	color: white;
+	font-size:10pt;
+	padding:0.1em;
+	background-color: #199ad6;
+}
+
+a.edit-link {
+	float: left;
+}
+
+div.game {
+	text-align: left;
+	display: block;
+	margin-left: 2em;
+	margin-bottom: 1em;
+	padding-top:.6em;
+	padding-bottom: .6em;
+	max-width: 1140px;
+}
+
+div.game div.col0 img {
+	width: 100%;
+	height: auto;
+	max-width: 120px;
+}
+
+div.game div {
+	display:inline-block;
+	padding-right: 0px;
+}
+
+div.col1 {
+	vertical-align: middle;
+}
+
+div.col1 div {
+	display: block;
+	margin: 0.2em 0.2em;
+	text-align: left;
+	white-space: pre-wrap; /* css-3 */    
+    white-space: -moz-pre-wrap; /* Mozilla, since 1999 */
+    white-space: -pre-wrap; /* Opera 4-6 */    
+    white-space: -o-pre-wrap; /* Opera 7 */    
+    word-wrap: break-word; /* Internet Explorer 5.5+ */
+}
+
+.fileinfo {
+	background-color: #BC6BC7;
+}
+
+.filename {
+	font-size: .75em;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  background-color: #f5f5f5;
+  padding: 15px;
+  text-align: center;
+}
+
+.error {
+	background: #f26565;
+}
+
+@media only screen and (min-width: 400px) {
+div.game div.col0 img {
+	width: 100%;
+	height: auto;
+	max-width: 240px;
+}
+
+div.col1 a {
+	font-size: 2em;
+}
+
+#filters {
+	display: block;
+}
+#filters select{
+	display: inline;
+	width: 40%;
+}
+#add-filter {
+	width: 15%;
+}
+
+.filename {
+	font-size: 1em;
+}
+
+.hidden {
+	visibility: hidden;
+}
