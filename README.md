@@ -8,7 +8,7 @@ You will need the following items to use pinaomiforcewebtools:
  2. A copy of the latest version of raspbian LITE - https://www.raspberrypi.org/downloads/raspbian/
  3. A SD Card
  4. A Naomi or Naomi 2
- 5. A Netdimm with a zero-key security PIC installed. I cannot provide links for this, but a modicum of Google-fu will get you what you need. The netdimm will need to be configured in static mode with an IP address of 192.168.1.2, netmask of 255.255.255.0, and gateway of 192.168.1.1.
+ 5. A Netdimm with a zero-key security PIC installed.
  6. A crossover cable
 
 ## Installation
